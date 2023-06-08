@@ -17,6 +17,9 @@ local sources = {
 
   -- cpp
   b.formatting.clang_format,
+
+  -- python
+  b.diagostics.mypy
 }
 
 null_ls.setup {
